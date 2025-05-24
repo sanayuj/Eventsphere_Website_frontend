@@ -5,6 +5,31 @@
 }
 
 .WelcomeNote{
+    font-size: 80px;
     color: #61fdd8;
     font-weight: 700;
+}
+
+.subheading{
+        color: #aec4d9;
+         font-size: 25px;
+}
+
+.getStartedBtn{
+    border: none;
+    border-radius: 7px;
+    margin: 20px;
+    height:55px;
+    padding: 0px 30px 0px 30px;
+    color:#0a1930 ;
+}
+
+.contactUsBtn{
+     border: 1px solid #61fdd8;
+    border-radius: 7px;
+    background-color:#0a1930 ;
+    margin: 20px;
+    height:55px;
+    padding: 0px 30px 0px 30px;
+    color:#61fdd8;
 }
