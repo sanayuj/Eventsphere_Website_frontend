@@ -1,0 +1,31 @@
+.landingSection4{
+    background-color:#0a1930 ;
+    height: 100vh;
+
+}
+
+.AboutHeading{
+    font-size: 40px;
+    color: #61fdd8;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+
+
+.commonCardProp2{
+    height: 250px;
+    width:550px;
+    background-color: #0e213d;
+    border-radius: 8px;
+    padding: 20px;
+    color: #61fdd8;
+}
+
+.icons{
+    font-size: 60px;
+}
+
+.cardContext{
+    padding-top: 10px;
+}
