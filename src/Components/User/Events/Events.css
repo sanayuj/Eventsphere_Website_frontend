@@ -4,11 +4,68 @@
 
 }
 
+.card-custom{
+   border: none !important;
+   border-radius: 8px !important;
+   background-color: #0a1930 !important;
+
+}
+
 
 .EventsHeading{
     font-size: 40px;
     color: #61fdd8;
     font-weight: 700;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 
+}
+.date{
+    color: #61fdd8;
+}
+
+.card-background{
+    background-color: #112240;
+    color: #61fdd8;
+}
+
+.register-Btn{
+    border: none;
+    background-color:#112240 ;
+    color:#61fdd8 ;
+    font-size: smaller;
+}
+
+.arrow-custom{
+    font-size: 12px;
+}
+
+.card-content{
+    font-size: smaller;
+    color: #61fdd8;
+}
+
+.Small-Card-Name{
+    height: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #61fdd8;
+    font-size: smaller;
+    border-radius: 5px;
+}
+
+.card-head{
+    font-weight: bolder;
+    color: white;
+}
+
+.subHeading{
+    width: 100%;
+    color: #61fdd8;
+    font-size: 20px;
+    background-color: #0a1930 ;
+    font-weight: bolder;
+    margin: 0px 0px 30px 0px; 
 }
