@@ -4,7 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Services() {
   return (
-    <div class="landingCommon  d-flex flex-column justify-content-center align-items-center">
+    <div class="landingCommon  d-flex flex-column justify-content-center align-items-center"id="service">
     <h2 className='ServiceHeading'>Our Services</h2>
     <div className=' d-flex gap-3 justify-content-center align-items-center'>
         <div className='firstCard commonCardProp'>

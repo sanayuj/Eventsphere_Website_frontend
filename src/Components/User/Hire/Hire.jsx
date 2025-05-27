@@ -2,7 +2,7 @@ import React from "react";
 import "./Hire.css";
 function Hire() {
   return (
-    <div className="landingSection6 d-flex flex-column justify-content-center align-items-center">
+    <div className="landingSection6 d-flex flex-column justify-content-center align-items-center" id="hire">
       <h3 className="EventsHeading">Hire Talent</h3>
       <div className=" d-flex flex-row justify-content-center align-items-center">
         <div className="common-div">

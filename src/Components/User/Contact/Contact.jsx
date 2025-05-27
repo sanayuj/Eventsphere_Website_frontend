@@ -2,7 +2,7 @@ import React from 'react'
 import "./Contact.css"
 function Contact() {
   return (
-    <div className='landingCommon5 d-flex flex-column justify-content-center align-items-center'>
+    <div className='landingCommon5 d-flex flex-column justify-content-center align-items-center' id="contact">
     <h2 className='ContactHeading'>Contact Us</h2>
 <form className='Form-custom'>
   <div class="mb-4">

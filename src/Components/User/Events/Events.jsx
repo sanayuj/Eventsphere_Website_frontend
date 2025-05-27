@@ -3,7 +3,7 @@ import "./Events.css"
 
 function Events() {
   return (
-    <div className='landingSection3 d-flex flex-column justify-content-center align-items-center'>
+    <div className='landingSection3 d-flex flex-column justify-content-center align-items-center' id="event">
     <h3 className='EventsHeading'>Events</h3>
     
     <div class="card mb-3 card-custom "style={{ width: "1500px", height: "400px" }} >

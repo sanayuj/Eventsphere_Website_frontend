@@ -2,7 +2,7 @@ import React from 'react'
 import "./About.css"
 function About() {
   return (
-    <div className='landingSection4 d-flex flex-column justify-content-center align-items-center'>
+    <div className='landingSection4 d-flex flex-column justify-content-center align-items-center'  id="about">
      <h3 className='AboutHeading'>About Us</h3>
      <div className=' d-flex gap-3 justify-content-center align-items-center'>
         <div className='firstCard commonCardProp2'>

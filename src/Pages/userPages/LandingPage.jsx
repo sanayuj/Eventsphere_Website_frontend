@@ -12,12 +12,12 @@ function LandingPage() {
   return (
     <div>
 
-    <Navbar/>
+    <Navbar />
     <LandingSection/>
     <Events/>
     <Services/>
     
-    <About/>
+    <About />
     <Hire/>
     <Contact/>
     <Footer/>
