@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg customNav">
       <div className="container-fluid">
-        <a className="navbar-brand heading ms-5" href="#">EventSphere</a>
+        <a className="navbar-brand heading ms-5" href="#"> <i class="bi bi-stop-circle me-2"></i>EventSphere</a>
 
         <button
           className="navbar-toggler"
