@@ -4,7 +4,7 @@ function Hire() {
   return (
     <div className="landingSection6 d-flex flex-column justify-content-center align-items-center" id="hire">
       <h3 className="EventsHeading">Hire Talent</h3>
-      <div className=" d-flex flex-row justify-content-center align-items-center">
+      <div className="b-box">
         <div className="common-div">
           <h5 className="d-flex flex-row justify-content-center align-items-center m-3 left-div-heading">
             Available Positions
@@ -88,40 +88,40 @@ function Hire() {
           </div>
         </div>
         <div className="common-div  d-flex flex-column justify-content-start align-items-center">
-<i class="bi bi-file-earmark-text resume"></i>
-<h4 className="right-div-content">Submit Your Resume</h4>
-<p className="right-div-content">Join our talent pool and be part of amazing events</p>
+          <i class="bi bi-file-earmark-text resume"></i>
+          <h4 className="right-div-content">Submit Your Resume</h4>
+          <p className="right-div-content">Join our talent pool and be part of amazing events</p>
 
-<form className='Form-custom-final'>
-  <div class="mb-4">
-    <label for="exampleInputEmail1" class="form-label">Full Name</label>
-    <input type="text" class="form-control input-custom-final" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Your name'/>
-   
-  </div>
-  <div class="mb-4">
-    <label for="exampleInputPassword1" class="form-label">Email</label>
-    <input type="text" class="form-control input-custom-final" id="exampleInputPassword1" placeholder='Your email'/>
-  </div>
+          <form className='Form-custom-final'>
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label">Full Name</label>
+              <input type="text" class="form-control input-custom-final" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Your name' />
 
-  <div class="mb-4">
-    <label for="exampleInputPassword1" class="form-label">Position Interest</label>
-    <input type="text" class="form-control input-custom-final" id="exampleInputPassword1" placeholder='Select a position'/>
-  </div>
+            </div>
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label">Email</label>
+              <input type="text" class="form-control input-custom-final" id="exampleInputPassword1" placeholder='Your email' />
+            </div>
 
-  <div class="mb-4">
-    <label for="exampleInputPassword1" class="form-label">Year of Experience</label>
-    <input type="text" class="form-control input-custom-final" id="exampleInputPassword1" placeholder='Enter year of experience'/>
-  </div>
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label">Position Interest</label>
+              <input type="text" class="form-control input-custom-final" id="exampleInputPassword1" placeholder='Select a position' />
+            </div>
 
-  <div class="mb-4">
-    <label for="exampleInputPassword1" class="form-label">Resume/CV</label>
-    <input type="text" class="form-control input-custom-final" id="exampleInputPassword1" placeholder='Upload Resume (PDF,DOC,DOCX)'/>
-  </div>
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label">Year of Experience</label>
+              <input type="text" class="form-control input-custom-final" id="exampleInputPassword1" placeholder='Enter year of experience' />
+            </div>
 
-  
-  
-  <button type="submit" class="btn btn-primary submit-Btn-Custom-final">Submit Application</button>
-</form>
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label">Resume/CV</label>
+              <input type="text" class="form-control input-custom-final" id="exampleInputPassword1" placeholder='Upload Resume (PDF,DOC,DOCX)' />
+            </div>
+
+
+
+            <button type="submit" class="btn btn-primary submit-Btn-Custom-final">Submit Application</button>
+          </form>
 
         </div>
       </div>
