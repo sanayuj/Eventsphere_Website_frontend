@@ -1,35 +1,46 @@
-.landingCommon{
-    background-color:#0a1930 ;
+.landingCommon {
+    background-color: #0a1930;
     height: 100vh;
 
 }
 
-.WelcomeNote{
-    font-size: 80px;
+.WelcomeNote {
+    font-size: 5rem;
     color: #61fdd8;
     font-weight: 700;
 }
 
-.subheading{
-        color: #aec4d9;
-         font-size: 25px;
+.subheading {
+    color: #aec4d9;
+    font-size: 1.5625rem;
 }
 
-.getStartedBtn{
+.getStartedBtn {
     border: none;
-    border-radius: 7px;
-    margin: 20px;
-    height:55px;
-    padding: 0px 30px 0px 30px;
-    color:#0a1930 ;
+    border-radius: 0.4375rem;
+    margin: 1.25rem;
+    height: 3.4375rem;
+    padding: 0rem 1.875rem 0rem 1.875rem;
+    color: #0a1930;
 }
 
-.contactUsBtn{
-     border: 1px solid #61fdd8;
-    border-radius: 7px;
-    background-color:#0a1930 ;
-    margin: 20px;
-    height:55px;
-    padding: 0px 30px 0px 30px;
-    color:#61fdd8;
+.contactUsBtn {
+    border: 0.0625rem solid #61fdd8;
+    border-radius: 0.4375rem;
+    background-color: #0a1930;
+    margin: 1.25rem;
+    height: 3.4375rem;
+    padding: 0rem 1.875rem 0rem 1.875rem;
+    color: #61fdd8;
+}
+
+@media (max-width: 768px) {
+
+    .WelcomeNote {
+        font-size: 3rem;
+    }
+
+    .subheading {
+        font-size: 1.25rem;
+    }
 }
