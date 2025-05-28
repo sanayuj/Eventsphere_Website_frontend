@@ -12,15 +12,15 @@ function LandingPage() {
   return (
     <div>
 
-    {/* <Navbar />
+    <Navbar />
     <LandingSection/>
-    <Events/> */}
+    <Events/>
     <Services/>
     
     <About />
-    {/* <Hire/>
+    <Hire/>
     <Contact/>
-    <Footer/> */}
+    <Footer/>
 
     </div>
   )
