@@ -1,17 +1,16 @@
 .fs-7 {
-  font-size: 0.70rem  !important; 
-  color: #61fdd8  !important;
+  font-size: 0.70rem !important;
+  color: #61fdd8 !important;
 }
 
-.footer{
-    font-weight: 100 !important;
-    color: #61fdd8 !important;
-    font-size: smaller !important;
-    
-}
-
-.customFooter{
-background-color: #0a1930;
+.footer {
+  font-weight: 100 !important;
+  color: #61fdd8 !important;
+  font-size: smaller !important;
 
 }
 
+.customFooter {
+  background-color: #0a1930;
+
+}
