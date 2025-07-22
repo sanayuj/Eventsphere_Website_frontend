@@ -8,25 +8,23 @@ import "./Contact.css";
 function Contact() {
    const navigate=useNavigate()
   const initialValues = {
-    name: "",
+    Username: "",
     email: "",
     message: "",
   };
 
-  const onSubmit = async (values) => {
+  const onSubmit = async (values,{ resetForm}) => {
     console.log("value is ", values);
      const { data } = await contact(values);
     if (data.status) {
-
-      navigate("/")
-      console.log(data);
       toast.success(data.message);
+       resetForm();
     } else {
       toast.error(data.message);
     }
   };
   const validationSchema = Yup.object({
-    name: Yup.string()
+    Username: Yup.string()
       .min(2, "* Name must be at least 2 characters")
       .required("* Name is required"),
     email: Yup.string()
@@ -53,22 +51,22 @@ function Contact() {
             Name
           </label>
           <input
-            id="name"
-            name="name"
+            id="Username"
+            name="Username"
             type="text"
             className="form-control input-custom"
             aria-describedby="emailHelp"
             placeholder="Your name"
             onBlur={formik.handleBlur}
             onChange={formik.handleChange}
-            value={formik.values.name}
+            value={formik.values.Username}
           />
-          {formik.touched.name && formik.errors.name ? (
+          {formik.touched.Username && formik.errors.Username ? (
             <p
               className="text-danger"
               style={{ fontSize: "12px", margin: "0px" }}
             >
-              {formik.errors.name}
+              {formik.errors.Username}
             </p>
           ) : null}
         </div>

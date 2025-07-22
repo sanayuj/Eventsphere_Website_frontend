@@ -1,8 +1,6 @@
 import React from 'react'
 import "./LandingSection.css"
-import { useNavigate } from 'react-router-dom';
 function LandingSection() {
-   const navigate = useNavigate();
      const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
