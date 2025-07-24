@@ -1,6 +1,13 @@
-*{
+* {
   scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
-body{
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
   background-color: #0A1930;
 }
