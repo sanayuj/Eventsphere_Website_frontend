@@ -7,5 +7,5 @@ export const contact = (values) => {
 
   export const hire=(values)=>{
     console.log(values,"!!!!!------------>>>>>>>")
-    return userInstance.post("/submitApplication",{...values});
+    return userInstance.post("/submitApplication",{...values},{ headers: { "Content-Type": "multipart/form-data" }});
   }
