@@ -1,10 +1,12 @@
-import React from "react";
+import React,{ useRef } from "react";
 import * as Yup from "yup";
 import { useFormik } from "formik";
 import "./Hire.css";
 import { toast } from "react-toastify";
 import { hire } from "../../../Services/userApi";
 function Hire() {
+  const fileInputRef = useRef(null);
+
   const initialValues = {
     Username: "",
     email: "",
@@ -13,21 +15,24 @@ function Hire() {
     resume: null,
   };
 
- const onSubmit = async (values, { resetForm }) => {
-  try {
-    console.log("value is ", values);
-         const { data } = await hire(values)
-        if (data.status) {
-          toast.success(data.message);
-           resetForm();
-        } else {
-          toast.error(data.message);
+  const onSubmit = async (values, { resetForm }) => {
+    try {
+      console.log("value is ", values);
+      const { data } = await hire(values);
+      if (data.status) {
+        toast.success(data.message);
+        resetForm();
+        if (fileInputRef.current) {
+          fileInputRef.current.value = "";
         }
-  } catch (error) {
-    toast.error("Submission failed. Please try again.");
-    console.error("Submission error:", error);
-  }
-};
+      } else {
+        toast.error(data.message);
+      }
+    } catch (error) {
+      toast.error("Submission failed. Please try again.");
+      console.error("Submission error:", error);
+    }
+  };
 
   const validationSchema = Yup.object({
     Username: Yup.string()
@@ -274,6 +279,7 @@ function Hire() {
                 name="resume"
                 className="form-control input-custom-final"
                 accept=".pdf,.doc,.docx"
+                ref={fileInputRef}
                 onChange={(event) =>
                   formik.setFieldValue("resume", event.currentTarget.files[0])
                 }

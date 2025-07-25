@@ -5,7 +5,12 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg customNav">
       <div className="container-fluid">
-        <a className="navbar-brand heading ms-5" href="#landing"> <i class="bi bi-stop-circle me-2"></i>EventSphere</a>
+        <a className="navbar-brand heading ms-5" href="#landing"> <img
+  src="/eventsphere-logo.png"
+  alt="EventSphere Logo"
+  className="me-2"
+  style={{ height: '30px', verticalAlign: 'middle' }}
+/>EventSphere</a>
 
         <button
           className="navbar-toggler"
