@@ -14,9 +14,9 @@ function LandingPage() {
 
       <Navbar />
       <LandingSection />
+       <About />
+       <Services />
       <Events />
-      <Services />
-      <About />
       <Hire />
       <Contact />
       <Footer />
